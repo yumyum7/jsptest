@@ -1,0 +1,10 @@
+메모장 
+
+
+Required request part 'file' is not present
+org.springframework.web.multipart.support.MissingServletRequestPartException: 
+Required request part 'file' is not present
+
+
+언급한 컨트롤러의 서버 측에서와 같이 클라이언트에서 파일을 업로드하는 동안 양식 데이터에서와 
+@RequestParam("file") MultipartFile file같이 키를 전달해야 합니다 .file
